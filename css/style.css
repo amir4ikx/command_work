@@ -59,6 +59,21 @@ header {
     color: #E73E0D;
 }
 
+.burger_menu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+}
+
+.burger_menu span {
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
 /* section 1 */
 
 
