@@ -261,6 +261,95 @@ a {
 /* Код Эльчина */
 
 
+/* секшн4 */
+.sec4 {
+    width: 100%;
+    height: 415px;
+    background-color: #26335D;
+
+}
+
+.div_glavnaya_text {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.div_glavnaya_text h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+
+}
+.div_glavnaya_left{
+    padding-top: 100px;
+  
+    width: 450px;
+    text-align: left;
+    
+}
+.div_text_glavniy{
+    padding-left: 110px;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.div_glavnaya_left p {
+    width: 400px;
+    font-weight: 500;
+    font-size: 20px;
+
+    line-height: 25px;
+    color: #FFFFFF;
+
+
+}
+
+a {
+    color: #FFFFFF;
+}
+.div_glavnaya_right{
+    width: 1000px;
+    text-align: left;
+    margin: -150px auto;
+    padding-left: 535px;
+}
+.div_glavnaya_right p{
+    font-weight: 500;
+    font-size: 20px;
+
+    line-height: 25px;
+    color: #FFFFFF;   
+}
+footer{
+    width: 100%;
+    height: 252px;
+}
+.div_container{
+    max-width: 1400px; 
+    margin: 0 auto;
+    width: 900px;
+padding-top: 30px;
+}
+.div_text{
+    width: 800px;
+    text-align: center;
+}
+.div_text p{
+    width: 800px;
+margin: 0 auto;
+    font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+
+color: #000000;
+
+}
+/* конец_секшн4 */
+
 
 
 
