@@ -20,9 +20,68 @@ a {
 /* обнуляющий код */
 
 
+
+
+
+/* 2 Секция */
+
+.section_2 {
+    height: 400px;
+    padding: 86px 0px 58px;
+    text-align: center;
+}
+
+.section_2_grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section_2_box {
+
+    height: 246px;
+    box-shadow: 2px 5px 10px 1px gray;
+    position: relative;
+    border-radius: 10px;
+}
+
+.section_2_box img {
+    padding: 24px 55px 16px;
+}
+
+.section_2_box hr {
+    width: 42.45px;
+    height: 2px;
+    border: none;
+    margin: auto;
+    background-color: #E74040;
+}
+
+.section_2_box a {
+    text-decoration: none;
+}
+
+.section_2_box p {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 24px 0 64px;
+}
+
+.section_2_box p:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
 /* Код Эльчина */
-
-
 
 .section-3 {
     background-color: #C6E8FF;
@@ -204,6 +263,46 @@ a {
 }
 
 
-
-
 /* Код Эльчина */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1200px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .section_2_box img {
+        padding: 24px 0px 16px;
+    }
+}
+
+@media(max-width: 992px) {
+    .section_2_grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+}
+
+@media(max-width: 768px) {
+    .section_2_grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}
