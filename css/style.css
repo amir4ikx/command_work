@@ -321,6 +321,7 @@ a {
 
     .section-3_grid-item-big_desc {
         font-size: 13px;
+        height: 70px;
     }
 
     .section-3_grid-item-long-row_desc {
@@ -333,7 +334,12 @@ a {
     }
 
     .section-3_grid-box {
-        grid-template-rows: 350px repeat(4, 90px);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-3_grid-item-long-row {
+        height: 100px;
     }
 
 
@@ -368,5 +374,20 @@ a {
 
     .section-3_flex-item_desc {
         font-size: 16px;
+    }
+}
+
+@media(max-width: 320px) {
+    .section-3_grid-item-long-row_desc {
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .section-3_grid-item-long-row {
+        padding: 0 5px;
+    }
+
+    .section-3_flex-item_desc {
+        font-size: 14px;
     }
 }
