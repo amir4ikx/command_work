@@ -1286,67 +1286,65 @@ header {
 
 }
 .div_glavnaya_left{
-    padding-top: 100px;
-  
-    width: 450px;
+    flex: 0 1 40%;
     text-align: left;
     
 }
 .div_text_glavniy{
-    padding-left: 110px;
+    display: flex;
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1200px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
 }
 .div_glavnaya_left p {
-    width: 400px;
     font-weight: 500;
     font-size: 20px;
-
-    line-height: 25px;
+    line-height: 30px;
     color: #FFFFFF;
-
-
+    margin: 0px;
 }
 
 a {
     color: #FFFFFF;
 }
 .div_glavnaya_right{
-    width: 1000px;
+    flex: 0 1 40%;
     text-align: left;
-    margin: -150px auto;
-    padding-left: 535px;
 }
 .div_glavnaya_right p{
     font-weight: 500;
     font-size: 20px;
-
-    line-height: 25px;
+    line-height: 30px;
     color: #FFFFFF;   
 }
+
+
 footer{
     width: 100%;
-    height: 252px;
+    height: 300px;
 }
 .div_container{
     max-width: 1400px; 
     margin: 0 auto;
     width: 900px;
-padding-top: 30px;
+    padding: 30px 0;
 }
 .div_text{
     width: 800px;
     text-align: center;
+    margin: 0 auto;
 }
 .div_text p{
     width: 800px;
-margin: 0 auto;
+    margin: 0 auto;
     font-weight: 700;
-font-size: 20px;
-line-height: 25px;
-text-align: center;
-
-color: #000000;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
 
 }
 /* конец_секшн4 */
@@ -1642,5 +1640,81 @@ color: #000000;
 
     .section-3_flex-item_desc {
         font-size: 14px;
+    }
+}
+
+
+/*   Адабтив на сэкшн4 и футер   */
+
+@media (max-width: 1440px) {
+    .div_glavnaya_text {
+        max-width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .div_container {
+        max-width: 100%;
+    }
+    .div_text {
+        width: 600px;
+    }
+    .div_text p {
+        width: 100%;
+    }
+    .div_text_glavniy {
+        flex-wrap: wrap;
+    }
+    .div_glavnaya_left {
+        flex: 0 1 80%;
+    }
+    .div_glavnaya_left p {
+        font-size: 16px;
+    }
+    .div_glavnaya_right {
+        flex: 0 1 80%;
+    }
+    .div_glavnaya_right p {
+        font-size: 16px;
+    }
+    .div_text p {
+        font-size: 16px;
+    }
+    .div_glavnaya_text h1 {
+        font-size: 26px;
+    }
+}
+@media (max-width: 550px) {
+    .div_text p {
+        font-size: 16px;
+        padding: 0 50px;
+    }
+    .div_text {
+        width: 100%;
+    }
+}
+@media (max-width: 385px) {
+    .sec4 {
+        height: 500px;
+    }
+    .div_glavnaya_text h1 {
+        font-size: 23px;
+        padding-bottom: 15px;
+    }
+    .div_glavnaya_right {
+        flex: 0 1 70%;
+    }
+    .div_glavnaya_left {
+        flex: 0 1 70%;
+    }
+}
+@media (max-width: 320px) {
+    .div_glavnaya_text {
+        padding-top: 15px;
+    }
+    .sec4 {
+        height: 560px;
+    }
+    .div_glavnaya_text h1 {
+        padding-bottom: 5px;
     }
 }
